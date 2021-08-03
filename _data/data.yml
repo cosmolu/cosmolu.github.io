@@ -3,18 +3,18 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Junda Lu
-    tagline: PhD student at UNSW (University of New South Wales)
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: PhD student at UNSW (University of New South Wales, Sydney, Australia)
+    avatar: 100.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: junda.lu@student.unsw.edu.au
-    phone: 0414 035 006
-    website: blog.webjeda.comxxxx #do not add http://
+    phone: +61 (0)414 035 006
+    # website: blog.webjeda.comxxxx #do not add http://
     linkedin: alandoe
     # xing: alandoe
     # github: sharu725
@@ -25,7 +25,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     # languages:
     #   - idiom: English
@@ -48,19 +48,23 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Biography
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a PhD candidate at the School of Computer Science and Engineering, UNSW, 
+      majoring in Adversarial Machine Learning (related to AI). 
+      I had already published (or be accepted) three papers during PhD studies. I earned two Master degrees 
+      from UCD (Ireland, First Class Honor) and BJUT (China, Outstanding Graduate Student), 
+      one in Computer Science and one in Engineering. My Bachelor's degree was got from BJUT in Engineering.
+
+      My research interests are on Adversarial Machine Learning, especially on Image Retrieval Systems, 
+      including both attack and defence algorithms. In addition, I also working on the connections between Database and the AI.
+
+    
 education:
-    - degree: PhD in Computer Science
-      university: University of New South Wales, Australia
-      time: 2017 - Current
-      details: |
+    - degree: PhD candidate, Computer Science and Engineering. 2017 - Current
+      university: University of New South Wales (UNSW), Australia
+      time: 
+      details: sdfsdf|
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -69,28 +73,27 @@ education:
           - Bullet point
           - Bullet point
     
-    - degree: MSc of Engineering, Control Engineering
-      university: Beijing University of Technology
-      time: 2014 - 2017
+    - degree: MSc of Engineering, Control Engineering. 2014 - 2017 
+      university: Beijing University of Technology (BJUT), China. 
+      time: Outstanding Graduate Student of BJUT
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Outstanding Graduate Student of BJUT
+        pretium quis, sem.          
           - Bullet point
 
-    - degree: MSc of Science, Computer Science
-          university: University College Dublin University, Ireland
-          time: 2014 - 2015
-          details: |
-             First Class Honors 
-              - Bullet point
+    - degree: MSc of Science, Computer Science. 2014 - 2015
+      university: University College Dublin (UCD), Ireland
+      time: First Class Honors
+      details: |
+         First Class Honors 
+          - Bullet point
 
-    - degree: BSc of Science, Computer Science
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc of Engineering, Automation. 2010 - 2014
+      university: Beijing University of Technology (BJUT), China
+      time: Got admission to graduate school (6%)
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -100,113 +103,129 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Adversarial Attack and Defense on AI Image Retrieval System
+      time: 2018 - Present
+      company: UNSW, Sydney, Australia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Working on the adversarial attacks and defence algorithms on AI retrieval models
+#          - Bullet point
+#          - Bullet point
+
+    - role: Nearest Neibour Search in High Dimensional Space   
+      time: 2017 - 2018
+      company: UNSW, Sydney, Australia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Studied fast search algorithm on KNN (K Nearest Nambours) Search problem. Used AI algorithms to learn search stratagy in high dimensional space to speed up the search process.
+#          - Bullet point
+#          - Bullet point
+    
+    - role: Equipment Recognition Based on Multiscale CNNs
+      time: 2015 - 2017
+      company: BJUT, Beijing, China
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Developed a detection method based on Multiscale CNNs to detect equipment in transformer substation. 
+        This system detects equipment in transformer substation fast with high accuracy.
+#          - Bullet point
+#          - Bullet point
+    
+    - role: Twitter Hashtag Recommendation System for News Articles
+      time: 2015 
+      company: UCD, Dublin, Ireland
+      details: |
+        Developed a Twitter Hashtag Recommendation System for News Articles. 
+        Used this system to analyses latest tweets and generate keyworks that most related to the current popular Twitter hashtags.
+        Used keywords on News Articles to make the article follow the hot news on Twitter.
+
+    
+test:
+    - role: ssssssssssssssss Attack and Defense on AI Image Retrieval System
+      time: 2018 - Present
+      company: UNSW, Sydney, Australia
+      details: |
+        Working on the adversarial attacks and defence algorithms on AI retrieval models
+#          - Bullet point
+#          - Bullet point
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Scholarships
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title:
+        # link: "#"
+        tagline: "2017. UNSW Tuition Fees Scholarship and living allowance."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title:
+        # link: "#"
+        tagline: "2014. Government of Ireland International Scholarship."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title:
+        # link: "#"
+        tagline: "2014. BJUT Graduate First-class Scholarship."
+      - title:
+        # link: "#"
+        tagline: "2016. TIS INTEC Group Scholarship, Science and Technology Innovation and Practice, the 1st Prize."
+      - title:
+        tagline: 2014-2016. BJUT Technology Innovation scholarship, 5 times.
+      - title: 
+        tagline: 2011-2013. BJUT Studies Excellent Scholarship for Undergraduate.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+
+      - title: Competitions
+      - title:
+        tagline: 2016. National Computer Games Tournament, Game of the Connect6, the 2nd Prize, China.
+      - title: 
+        tagline: 2015. National Computer Games Tournament, Game of the Amazons Chess, the 1st Prize, China.
+      - title: 
+        tagline: 2014. National Computer Games Tournament, Game of the Surakarta Chess, the 1st Prize, China.
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: A Smart Adversarial Attack on Deep Hashing Based Image Retrieval
+        link: "https://icmr2021.org/"
+        authors: Junda Lu, Mingyang Chen, Yifang Sun, Wei Wang, Yi Wang, Xiaochun Yang.
+        conference: Accepted by ICMR 2021, International Conference on Multimedia Retrieval, DOI:10.1145/3460426.3463640.  Conference dates will be on 16-19 November 2021.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "DAIR: A Query-Efficient Decision-based Attack on Image Retrieval Systems"
+        link: "https://dl.acm.org/doi/10.1145/3404835.3462887"
+        authors: Mingyang Chen, Junda Lu, Yi Wang, Jianbin Qin, Wei Wang.
+        conference: "SIGIR 2021, Special Interest Group on Information Retrieval, DOI:10.1145/3404835.3462887"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Unsupervised Domain Adaptation for Non-Intrusive Load Monitoring Via Adversarial and Joint Adaptation Network.
+        link: "https://ieeexplore.ieee.org/document/9380223/"
+        authors: Yinyan Liu, Li Zhong, Jing Qiu, Junda Lu, Wei Wang.
+        conference: IEEE Transactions on Industrial Informatics on March 2021, DOI:10.1109/TII.2021.3065934
 
-skills:
-    title: Skills &amp; Proficiency
+      - title: Detection Method of High Voltage Bushing Based on Hu Moment Invariants and SVM
+        link: "https://ieeexplore.ieee.org/document/7978610"
+        authors: Junda Lu, Changfu Xu, Guoyu Zuo, Jiayuan Xu, Lei Ma.
+        conference: CCDC 2017, the 29th Chinese Control and Decision Conference, DOI:10.1109/TII.2021.3065934
 
-    toolset:
-      - name: Python & Django
-        level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+# skills:
+#     title: Skills
+        
+#     toolset:
+#       - name: Python & Django
+#         level: 95%
 
-      - name: Angular
-        level: 98%
+#       - name: Tensorflow
+#         level: 95%
 
-      - name: HTML5 & CSS
-        level: 95%
+#       - name: PyTorch
+#         level: 93%
 
-      - name: Ruby on Rails
-        level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
