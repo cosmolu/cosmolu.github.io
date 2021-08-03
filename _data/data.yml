@@ -8,8 +8,7 @@ sidebar:
 
     # Profile information
     name: Junda Lu
-    tagline: PhD student at UNSW
-    University of New South Wales 
+    tagline: PhD student at UNSW (University of New South Wales)
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
