@@ -15,7 +15,7 @@ sidebar:
     email: junda.lu@student.unsw.edu.au
     phone: +61 (0)414 035 006
     # website: blog.webjeda.comxxxx #do not add http://
-    linkedin: alandoe
+    linkedin: https://www.linkedin.com/in/junda-lu-2a33aa219/
     # xing: alandoe
     # github: sharu725
     telegram: # add your nickname without '@' sign
@@ -57,7 +57,7 @@ career-profile:
       one in Computer Science and one in Engineering. My Bachelor's degree was got from BJUT in Engineering.
 
       My research interests are on Adversarial Machine Learning, especially on Image Retrieval Systems, 
-      including both attack and defence algorithms. In addition, I also working on the connections between Database and the AI.
+      including both attack and defence algorithms. In addition, I also work on the connections between Database and AI.
 
     
 education:
@@ -83,7 +83,7 @@ education:
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.          
           - Bullet point
-
+          - Bullet point
     - degree: MSc of Science, Computer Science. 2014 - 2015
       university: University College Dublin (UCD), Ireland
       time: First Class Honors
